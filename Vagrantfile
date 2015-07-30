@@ -74,7 +74,7 @@ end
   #   s.path = "keys.sh"
   # end
 
-  # config.vm.provision "shell", inline: $restart_services
+  config.vm.provision "shell", inline: "chmod 0775 -R /usr/local/rvm"
 
   # config.vm.provision "shell", path: "restart_services.sh"
 
