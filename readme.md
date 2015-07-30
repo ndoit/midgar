@@ -61,15 +61,29 @@ In addition to these errors, sometimes you might be getting goofy errors that sh
 YOU AREN'T REAL! OH NO!
 
 no just kidding, you've probably noticed that you're logged in on the portal as a 'nonexistant user' at first. This is true, you probably are not in the database yet. make sure the dev DB is running, and go to the rails console and create yourself.
-`rails c`
-`> User.create(net_id: 'your net id here')`
+```
+[vagrant@localhost ~]$ cd /vagrant/fenrir/
+[vagrant@localhost fenrir]$ neos
+...
+[vagrant@localhost fenrir]$ rails c
+Loading development environment (Rails 4.0.2)
+2.0.0-p353 :001 > User.create(net_id: 'yournetidhere')
+ => #<User admin_emeritus: nil, net_id: "yournetidhere">
+```
 
 ### Rspec Testing
 the test evnironment is actually called `rspec`. To run the rspec tests, the test DB must be running. 
-`neop && teos`
-then 
-`cd /vagrant/fenrir`
-`rspec`
+```
+[vagrant@localhost ~]$ neop && teos
+...
+[vagrant@localhost ~]$ cd /vagrant/fenrir/
+[vagrant@localhost ~]$ cd /vagrant/fen
+[vagrant@localhost fenrir]$ rspec
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+.....
+```
 
 and hopefully you should see green dots flying by!
 
