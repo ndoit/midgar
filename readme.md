@@ -6,12 +6,12 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
   * https://www.virtualbox.org/
   * https://www.vagrantup.com/
   * https://help.github.com/articles/generating-ssh-keys/
-  * `brew install wget`
+  * http://brew.sh/ `brew install wget`
 
 # Walkthrough
 ---
-1. download midgar folder from google drive
-2. run `sh midgar_setup.sh`
+1. `git clone git@github.com:ndoit/midgar.git`
+2. `sh midgar_setup.sh`
 3. `cd midgar`
 4. `vagrant ssh`
 5. `[vagrant@localhost ~]$ cd /vagrant`
