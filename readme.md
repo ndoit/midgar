@@ -76,7 +76,7 @@ and hopefully you should see green dots flying by!
 > Because the rspec environment runs on a different database, if you ever want to manipulate the test environment in the console, you have to call the console with that environment with `rails c rspec`
 
 ### Github
-Don't commit anything to github until you can ssh from within vagrant. Vagrant's default user is 'vagrant' and all your commits are going to go to him.
+Don't commit anything to github until you can ssh from within vagrant and define your credentials. Vagrant's default user is 'vagrant' and all your commits by default go to him.
 
 To fix this follow the directions on github for [username](https://help.github.com/articles/setting-your-username-in-git/) and [email](https://help.github.com/articles/setting-your-email-in-git/)
 
