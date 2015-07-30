@@ -77,7 +77,6 @@ the test evnironment is actually called `rspec`. To run the rspec tests, the tes
 [vagrant@localhost ~]$ neop && teos
 ...
 [vagrant@localhost ~]$ cd /vagrant/fenrir/
-[vagrant@localhost ~]$ cd /vagrant/fen
 [vagrant@localhost fenrir]$ rspec
 Run options: include {:focus=>true}
 
