@@ -19,12 +19,13 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
 
 That's it! You should now have your dev environment set up.
 
-To visit fenrir - start your dev neo4j server: type in your vagrant machine `neos`. Make sure you're in the vagrant machine!
-`[vagrant@localhost ~]$ neos`
-then restart your services
-`[vagrant@localhost ~]$ cd /vagrant`
-`[vagrant@localhost vagrant]$ sh restart_services.sh`
-
+To visit fenrir - start your dev neo4j server: type in your vagrant machine `neos`. Then restart your services.
+```
+[vagrant@localhost ~]$ neos
+# Restart your services
+[vagrant@localhost ~]$ cd /vagrant
+[vagrant@localhost vagrant]$ sh restart_services.sh
+```
 You should now be able to visit localhost:4443
 
 ### Things to keep in mind
