@@ -11,8 +11,8 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
 # Walkthrough
 ---
 1. `git clone git@github.com:ndoit/midgar.git`
-2. `sh midgar_setup.sh`
-3. `cd midgar`
+2. `cd midgar`
+3. `sh midgar_setup.sh`
 4. `vagrant ssh`
 5. `[vagrant@localhost ~]$ cd /vagrant`
 6. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
