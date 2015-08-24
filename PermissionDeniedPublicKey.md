@@ -41,7 +41,8 @@ SSH_AUTH_SOCK=/tmp/ssh-WBtRY28682/agent.28682
 
 Keep in mind that for all intents and purposes, the vagrant machine is its own unique machine. In our Vagrantfile we have it set up to pipe the SSH key automatically but that isn't happening.
 
-What's happening is your keyring on vagrant doesn't have your ssh key from the mac. We need to forward to your vagrant machine. This only happens if
+What's happening is your keyring on vagrant doesn't have your ssh key from the mac. We need to forward to your vagrant machine. This only happens if:
+
 1. We are forwarding the ssh key to vagrant
 2. That key is on our key ring in the first place.
 
