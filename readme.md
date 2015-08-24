@@ -93,12 +93,13 @@ Don't commit anything to github until you can ssh from within vagrant and define
 
 To fix this follow the directions on github for [username](https://help.github.com/articles/setting-your-username-in-git/) and [email](https://help.github.com/articles/setting-your-email-in-git/)
 
-you should be able to ssh from github automatically once you tell it to. 
-type:
+You should be able to ssh from github automatically once you tell it to. type:
 ```
 vagrant@localhost ~]$ ssh -T git@github.com
 Hi RyanSnodgrass! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+If it does not and gives you `PermissionDenied Public Key` errors, checkout this [walkthrough](https://github.com/ndoit/midgar/blob/master/PermissionDeniedPublicKey.md) I created on fixing it. Before you look at that, make sure you can SSH to github from your local machine.
 
 ### browser connectivity issues
 In order for the browser to be able to hit localhost:4443, that restart_services.sh script must be run atleast once per session. It has a couple of commands in it that shuts down a couple of security features, opens ports, then starts unicorn and nginx. In order for unicorn to start properly, the neo4j dev server must be running with `teop && neos`.
