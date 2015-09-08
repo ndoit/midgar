@@ -68,7 +68,7 @@ no just kidding, you've probably noticed that you're logged in on the portal as 
 [vagrant@localhost fenrir]$ rails c
 Loading development environment (Rails 4.0.2)
 2.0.0-p353 :001 > User.create(net_id: 'yournetidhere', admin: true)
- => #<User admin: nil, net_id: "yournetidhere">
+ => #<User admin: true, net_id: "yournetidhere">
 ```
 
 ### Rspec Testing
