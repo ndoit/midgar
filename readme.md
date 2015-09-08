@@ -17,9 +17,9 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
 5. `[vagrant@localhost ~]$ cd /vagrant`
 6. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
 
-That's it! You should now have your dev environment set up.
+That's it! Your environment is now ready to develop Rails applications. Fenrir is NOT running yet though.
 
-To visit fenrir - start your dev neo4j server: type in your vagrant machine `neos`. Then restart your services.
+To visit fenrir - start your dev neo4j server: type in your vagrant machine `neos`. Then restart your services:
 ```
 [vagrant@localhost ~]$ neos
 # Restart your services
@@ -67,8 +67,8 @@ no just kidding, you've probably noticed that you're logged in on the portal as 
 ...
 [vagrant@localhost fenrir]$ rails c
 Loading development environment (Rails 4.0.2)
-2.0.0-p353 :001 > User.create(net_id: 'yournetidhere')
- => #<User admin_emeritus: nil, net_id: "yournetidhere">
+2.0.0-p353 :001 > User.create(net_id: 'yournetidhere', admin: true)
+ => #<User admin: nil, net_id: "yournetidhere">
 ```
 
 ### Rspec Testing
