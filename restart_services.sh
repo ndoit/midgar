@@ -31,3 +31,4 @@ cd /vagrant/Fenrir/ && bundle && bundle exec unicorn -c /vagrant/Fenrir/config/u
 sudo /usr/sbin/nginx
 
 cd /vagrant/
+
