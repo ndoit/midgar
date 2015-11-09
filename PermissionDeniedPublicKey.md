@@ -64,7 +64,7 @@ rsnodgra$ ssh-add ~/.ssh/id_rsa
 Identity added: /Users/rsnodgra/.ssh/id_rsa (/Users/rsnodgra/.ssh/id_rsa)
 
 rsnodgra$ ssh-add -l
-2048 5c:b4:1a:f9:5a:78:e2:50:4c:21:11:05:6c:ab:fc:91 /Users/rsnodgra/.ssh/id_rsa (RSA)
+2048 5c:b4:1a:f9:5a:sd:e2:35:4c:21:22:05:6c:ab:fc:91 /Users/rsnodgra/.ssh/id_rsa (RSA)
 rsnodgra$ pwd
 /Users/rsnodgra/IceCream/rails-default-box
 
