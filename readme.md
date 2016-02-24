@@ -14,8 +14,9 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
 2. `cd midgar`
 3. `sh midgar_setup.sh`
 4. `vagrant ssh`
-5. `[vagrant@localhost ~]$ cd /vagrant`
-6. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
+5. `[vagrant@localhost ~]$ mkdir /tmp/pid`
+6. `[vagrant@localhost ~]$ cd /vagrant`
+7. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
 
 That's it! Your environment is now ready to develop Rails applications. Fenrir is NOT running yet though.
 
