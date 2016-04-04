@@ -24,6 +24,7 @@ To visit fenrir - start your dev neo4j server: type in your vagrant machine `neo
 ```
 [vagrant@localhost ~]$ neos
 # Restart your services
+[vagrant@localhost ~]$ mkdir /tmp/pid
 [vagrant@localhost ~]$ cd /vagrant
 [vagrant@localhost vagrant]$ sh restart_services.sh
 ```
