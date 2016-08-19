@@ -1,3 +1,5 @@
+<img src="http://odysseedupixel.fr/wp-content/uploads/Final%20Fantasy%20VII-Midgard.jpg" width="500">
+
 Starting Your BI Portal
 ===
 
