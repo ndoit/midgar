@@ -16,10 +16,10 @@ Make sure that you have VirtualBox, Vagrant, wget, and can ssh to github on your
 2. `cd midgar`
 3. `sh midgar_setup.sh`
 4. `vagrant ssh`
-5. `[vagrant@localhost ~]$ mkdir /tmp/pid`
-6. `[vagrant@localhost ~]$ sudo yum install freetds-devel`
-7. `[vagrant@localhost ~]$ cd /vagrant`
-8. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
+5. `[vagrant@localhost ~]$ echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6NF8iallvQVp22WDkTkyrtvp9eWW6A8YVr+kz4TjGYe7gHzIw+niNltGEFHzD8+v1I2YJ6oXevct1YeS0o9HZyN1Q9qgCgzUFtdOKLv6IedplqoPkcmF0aYet2PkEDo3MlTBckFXPITAMzF8dJSIFo9D8HfdOV0IAdx4O7PtixWKn5y2hMNG0zQPyUecp4pzC6kivAIhyfHilFR61RGL+GPXQ2MWZWFYbAGjyiYJnAmCP3NOTd0jMZEnDkbUvxhMmBYSdETk1rRgm+R4LOzFUGaHqHDLKLX+FIPKcF96hrucXzcWyLbIbEgE98OHlnVYCzRdK8jlqm8tehUc9c9WhQ== vagrant insecure public key" > .ssh/authorized_keys`
+6. `[vagrant@localhost ~]$ chmod 0600 ~/.ssh/authorized_keys`
+6. `[vagrant@localhost ~]$ cd /vagrant`
+7. `[vagrant@localhost vagrant]$ sh keys.sh`  You will need the keys for these
 
 That's it! Your environment is now ready to develop Rails applications. Fenrir is NOT running yet though.
 
