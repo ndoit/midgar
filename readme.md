@@ -1,3 +1,8 @@
+# THIS IS CURRENTLY DEPRICATED!
+You can find the new setup at [Nibelheim](https://github.com/ndoit/Nibelheim). Where Midgar is a static box that is woefully out of date and hard to upgrade, the new version at Nibelheim is a blank centos box that runs an ansible configuration to get you up and running.
+
+---
+
 <img src="http://odysseedupixel.fr/wp-content/uploads/Final%20Fantasy%20VII-Midgard.jpg" width="500">
 
 Starting Your BI Portal
